@@ -1,0 +1,23 @@
+{
+  "name": "ms-expressjs-template",
+  "version": "1.0.0",
+  "description": "Template for microservices build using expressJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moowers-App/ms-expressjs-template.git"
+  },
+  "author": "Edgar Yerena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moowers-App/ms-expressjs-template/issues"
+  },
+  "homepage": "https://github.com/Moowers-App/ms-expressjs-template#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.3"
+  }
+}
