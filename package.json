@@ -4,7 +4,8 @@
   "description": "Template for microservices build using expressJS",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,14 @@
   },
   "homepage": "https://github.com/Moowers-App/ms-expressjs-template#readme",
   "dependencies": {
+    "app-root-path": "^3.0.0",
     "express": "^4.17.1",
     "helmet": "^3.21.3",
     "jsonwebtoken": "^8.5.1",
     "winston": "^3.2.1",
     "winston-daily-rotate-file": "^4.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }

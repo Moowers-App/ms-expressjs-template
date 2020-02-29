@@ -1,7 +1,8 @@
 const winston = require('winston')
 const rotateLog = require('winston-daily-rotate-file')
+const appRoot = require('app-root-path')
 const fs = require('fs')
-const log_dir = 'logs'
+const log_dir = `${appRoot}/logs`
 
 // Create log folder if not exists
 if (!fs.existsSync(log_dir)) {
@@ -14,7 +15,7 @@ const log = new winston.createLogger({
       colorize: true
     }),
     new (rotateLog)({
-      filename: './logs/app.log',
+      filename: `${appRoot}/logs/app.log`,
       prepend: true
     })
   ],
