@@ -14,4 +14,4 @@ app.use('/api/v1', apiRoutes)
 // Set listeting port
 const port = process.env.PORT || 3000
 
-app.listen(port, () => log.info(`APP runing on port ${port}`))
+app.listen(port, () => log.info(`APP is ready and runing on port ${port}`))

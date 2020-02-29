@@ -1,7 +1,7 @@
 {
   "name": "ms-expressjs-template",
   "version": "1.0.0",
-  "description": "Template for microservices build using expressJS",
+  "description": "Template for build microservices using expressJS",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
